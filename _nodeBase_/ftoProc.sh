@@ -1,5 +1,6 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 ####+BEGIN: bx:bash:top-of-file :vc "cvs" partof: "bystar" :copyleft "halaal+minimal"
 ### Args: :control "enabled|disabled|hide|release|fVar"  :vc "cvs|git|nil" :partof "bystar|nil" :copyleft "halaal+minimal|halaal+brief|nil"
 typeset RcsId="$Id: dblock-iim-bash.el,v 1.4 2017-02-08 06:42:32 lsipusr Exp $"
@@ -20,6 +21,21 @@ FILE="
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@" 
+=======
+####+BEGIN: bx:dblock:bash:top-of-file :vc "cvs" partof: "bystar" :copyleft "halaal+minimal"
+
+####+END:
+
+####+BEGIN: bx:dblock:lsip:bash:seed-spec :types "seedFtoCommon.sh"
+SEED="
+*  /[dblock]/ /Seed/ :: [[file:/opt/public/osmt/bin/seedFtoCommon.sh]] | 
+"
+FILE="
+*  /This File/ :: /bisos/panels/blee/dev/_nodeBase_/ftoProc.sh 
+"
+if [ "${loadFiles}" == "" ] ; then
+    /opt/public/osmt/bin/seedFtoCommon.sh -l $0 "$@" 
+>>>>>>> 4375d63ab7a5210e2ab7ab0402f443c6af939bf1
     exit $?
 fi
 ####+END:
