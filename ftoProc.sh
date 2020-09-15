@@ -21,9 +21,8 @@ FILE="
 "
 if [ "${loadFiles}" == "" ] ; then
     /bisos/core/bsip/bin/seedFtoCommon.sh -l $0 "$@" 
-=======
-####+BEGIN: bx:dblock:bash:top-of-file :vc "cvs" partof: "bystar" :copyleft "halaal+minimal"
-
+    exit $?
+fi
 ####+END:
 
 ####+BEGIN: bx:dblock:lsip:bash:seed-spec :types "seedFtoCommon.sh"
@@ -31,11 +30,10 @@ SEED="
 *  /[dblock]/ /Seed/ :: [[file:/opt/public/osmt/bin/seedFtoCommon.sh]] | 
 "
 FILE="
-*  /This File/ :: /bisos/panels/blee/dev/ftoProc.sh 
+*  /This File/ :: /bisos/git/auth/bxRepos/blee-binders/blee-dev/ftoProc.sh 
 "
 if [ "${loadFiles}" == "" ] ; then
     /opt/public/osmt/bin/seedFtoCommon.sh -l $0 "$@" 
->>>>>>> 4375d63ab7a5210e2ab7ab0402f443c6af939bf1
     exit $?
 fi
 ####+END:
@@ -69,6 +67,7 @@ _CommentEnd_
 ####+BEGIN: bx:dblock:ploneProc:bash:nodesList :types ""
 # {{{ DBLOCK-nodesList
 nodesList="
+_nodeBase_
 "
 # }}} DBLOCK-nodesList
 ####+END:
