@@ -53,6 +53,7 @@
 ** 
 ** TODO We need a base git for /bisos/panels/blee,bisos,bxde as a node to facilitate traversals.
    SCHEDULED: <2020-08-18 Tue>
+   Perhaps best done with a git base plus symlinks into that git base for its own _node_ etc.
 ** 
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Panel Facilities" :anchor "" :extraInfo ""
@@ -73,7 +74,10 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Snippets:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** TODO Change folding to sectioning 
+** TODO Change folding to sectioning and have sectioning
+*** Main Dropdown with Have "Sections"  and "Sections / Folding"
+** TODO Library Intros -- To Execute Line /Py/Bash ICM add libs intro
+   SCHEDULED: <2020-09-19 Sat>
 ** 
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Blee Boot" :anchor "" :extraInfo ""
