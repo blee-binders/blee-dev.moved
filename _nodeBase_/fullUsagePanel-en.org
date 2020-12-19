@@ -54,6 +54,9 @@
 ** TODO We need a base git for /bisos/panels/blee,bisos,bxde as a node to facilitate traversals.
    SCHEDULED: <2020-08-18 Tue>
    Perhaps best done with a git base plus symlinks into that git base for its own _node_ etc.
+** TODO Common bleeDblock functions --Add to  bodyContent (), bodyCodeContent (), 
+   SCHEDULED: <2020-10-18 Sun>
+   Revisit  bx:dblock:governor:process -- Should bodyContentPlus be obsoleted.
 ** 
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Panel Facilities" :anchor "" :extraInfo ""
@@ -94,7 +97,7 @@
 *** link-to goes to a bxPanel
 *** chain-to goes to a bxPanel and chains agenda relations
 *** connect-to goes to any org-file.
-** TODO Create [[link-to:xx]] --  [[chain-to:xx]] -- [[connect-to:xx]]
+** TODO Create [[link-to:xx]] --  [[chain-to:xx]] -- [[connect-to:xx]]  [[decrypt:xx]]  [[encrypt:xx]] 
 ** 
 ** B|
 >>>>>>> 4375d63ab7a5210e2ab7ab0402f443c6af939bf1
