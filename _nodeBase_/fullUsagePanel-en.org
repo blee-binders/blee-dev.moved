@@ -36,6 +36,8 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
+** TODO Try out exwm -- Multi-Window
+   SCHEDULED: <2021-01-25 Mon>
 ** TODO lined-tree-navigator should go under blee:bxPanel:evolution
    SCHEDULED: <2021-01-11 Mon>
 ** TODO General Panels should be moved down -- revisit  blee:bxPanel:terseTreeNavigator
