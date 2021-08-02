@@ -49,6 +49,7 @@
 ** TODO On top menus convert Modes to Act (Activities) -- Add NAFM as a sub-menu.
 ** TODO Adopt straight.el
 ** TODO Adopt helm-recoll -- Adopt org-recoll -- Adopt recoll -- Search engine
+** TODO Is broken: (use-package org-recoll :load-path "/bisos/blee/extPkgs/org-recoll")
 ** TODO Harvest https://tecosaur.github.io/emacs-config/config.html
 ** TODO Buy into org-protocol
 ** TODO blee:bxPanel:linkWithTreeElem is buggy -- :agenda t results in infinite loop -- outlevel is +1
