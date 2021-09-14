@@ -42,7 +42,9 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+** -
+** TODO lsp-pyright-typechecking-mode  https://emacs-lsp.github.io/lsp-pyright/
+** TODO lsp-pyright-venv-path  https://emacs-lsp.github.io/lsp-pyright/
 ** TODO Adopt chemacs2 as bleeboot
 ** TODO Adopt vanila doom as a bleeboot option
 ** TODO Blee top Menus -- My Blee Panels Acts Apps File etc
