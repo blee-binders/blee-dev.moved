@@ -43,6 +43,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
+** TODO emacs-27 build need a .desktop -- run dpkg -L emacs-gtk -- look at .desktop -- add to binsPrep
 ** TODO Adopt chemacs2 as bleeboot
 ** TODO Adopt vanila doom as a bleeboot option
 ** TODO Blee top Menus -- My Blee Panels Acts Apps File etc
