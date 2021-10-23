@@ -36,20 +36,27 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** 
-** Scope of this panel tree is blee development and bleePanel developm
+** Scope of this panel tree is blee development and bleePanel development
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "General And Misc Tasks" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
+<<<<<<< HEAD
 ** 
 ** TODO emacs-27 build need a .desktop -- run dpkg -L emacs-gtk -- look at .desktop -- add to binsPrep
+=======
+** -
+** TODO lsp-pyright-typechecking-mode  https://emacs-lsp.github.io/lsp-pyright/
+** TODO lsp-pyright-venv-path  https://emacs-lsp.github.io/lsp-pyright/
+>>>>>>> 11e1633840c59a0e1fe6b52e1d57b27611459e9f
 ** TODO Adopt chemacs2 as bleeboot
 ** TODO Adopt vanila doom as a bleeboot option
 ** TODO Blee top Menus -- My Blee Panels Acts Apps File etc
 ** TODO On top menus convert Modes to Act (Activities) -- Add NAFM as a sub-menu.
 ** TODO Adopt straight.el
 ** TODO Adopt helm-recoll -- Adopt org-recoll -- Adopt recoll -- Search engine
+** TODO Is broken: (use-package org-recoll :load-path "/bisos/blee/extPkgs/org-recoll")
 ** TODO Harvest https://tecosaur.github.io/emacs-config/config.html
 ** TODO Buy into org-protocol
 ** TODO blee:bxPanel:linkWithTreeElem is buggy -- :agenda t results in infinite loop -- outlevel is +1
