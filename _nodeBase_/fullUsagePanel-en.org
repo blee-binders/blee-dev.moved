@@ -42,10 +42,10 @@
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/ 
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-<<<<<<< HEAD
-** 
-** TODO emacs-27 build need a .desktop -- run dpkg -L emacs-gtk -- look at .desktop -- add to binsPrep
 ** -
+** TODO emacs-27 build need a .desktop -- run dpkg -L emacs-gtk -- look at .desktop -- add to binsPrep
+** TODO Absorb All existing in one shot.
+** TODO Re-Do The Panels menu to point to new place.
 ** TODO sudo cp /opt/emacs-27.0.91/etc/emacs.desktop /usr/share/applications/
 ** TODO lsp-pyright-typechecking-mode  https://emacs-lsp.github.io/lsp-pyright/
 ** TODO lsp-pyright-venv-path  https://emacs-lsp.github.io/lsp-pyright/
