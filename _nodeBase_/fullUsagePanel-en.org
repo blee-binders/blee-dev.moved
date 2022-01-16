@@ -43,6 +43,7 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** -
+** TODO Bring over bidi-mode. from doom.
 ** TODO Important and Urgent  Replace org-cycle with outline-show-subtree+toggle
 SCHEDULED: <2022-01-11 Tue>
 Change org-cycle  in all likes of blee:bxPanel:foldingSection to bx:sec:cycle -- where the whol
