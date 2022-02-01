@@ -310,7 +310,34 @@ closeParam is one of:
 ####+END
 ####+BEGIN: blee:bxPanel:runResult :outLevel 3  :command "startOrgPanel.sh"  :results t :comment "ICM Description" :afterComment "-- tailor the command line"
 *** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     [[elisp:(org-cycle)][| /Results:/ |]]  [[elisp:(blee:org-update-named-dblocks-above)][D-Run]] :: [[elisp:(lsip-local-run-command "startOrgPanel.sh")][startOrgPanel.sh]] *|*  =ICM Description= *|*  -- tailor the command line  |
-Last Executed at: 202201-05-01:04:10  by: bystar on: VAG-deb11-15-PML-1006
+Last Executed at: 202202-01-01:49:25  by: bystar on: VAG-deb11-15-PML-1006
+----------------------------
+#################  COMMON SEEDED EXAMPLES  #################
+startOrgPanel.sh -i examplesCommonSeeded
+startOrgPanel.sh -i iimPanelUsages
+startOrgPanel.sh -i visit
+startOrgPanel.sh -i gotoPanel
+startOrgPanel.sh -i iifAuxInvoke describeF lsIifs
+startOrgPanel.sh -i lsIifs
+startOrgPanel.sh -i describe | emlVisit
+startOrgPanel.sh -i examples | emlOutFilter.sh
+###############################  startOrgPanel.sh  #################################
+#################  Common File Tree Object Examples  #################
+startOrgPanel.sh -h -v -n showRun -i ftoCommonExamples
+#################  Start Blee Node Panel Base  #################
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase node .
+#################  Start Blee Leaf  #################
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase leaf .
+#################  Start Blee AuxNode  #################
+startOrgPanel.sh -h -v -n showRun -i bleePanelBase auxNode .
+( examplesSeperatorChapter "Update Blee Node or Leaf Panel Base" )
+startOrgPanel.sh -h -v -n showRun -i bleePanelBaseUpdate .
+
+*** [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:runResult :outLevel 3  :command "startOrgPanel.sh"  :results t :comment "ICM Description" :afterComment "-- tailor the command line"
+*** [[elisp:(show-all)][(>]] [[elisp:(blee:menu-sel:outline:popupMenu)][+-]] [[elisp:(blee:menu-sel:navigation:popupMenu)][==]]     [[elisp:(org-cycle)][| /Results:/ |]]  [[elisp:(blee:org-update-named-dblocks-above)][D-Run]] :: [[elisp:(lsip-local-run-command "startOrgPanel.sh")][startOrgPanel.sh]] *|*  =ICM Description= *|*  -- tailor the command line  |
+Last Executed at: 202202-01-01:49:25  by: bystar on: VAG-deb11-15-PML-1006
 ----------------------------
 #################  COMMON SEEDED EXAMPLES  #################
 startOrgPanel.sh -i examplesCommonSeeded

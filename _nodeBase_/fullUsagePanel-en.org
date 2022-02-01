@@ -43,6 +43,13 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** -
+** TODO Buy into https://github.com/laishulu/emacs-smart-input-source
+** TODO Bring over bidi-mode. from doom.
+** TODO Important and Urgent  Replace org-cycle with outline-show-subtree+toggle
+SCHEDULED: <2022-01-11 Tue>
+Change org-cycle  in all likes of blee:bxPanel:foldingSection to bx:sec:cycle -- where the whol
+subtree is chown and hidden. And add outline-show-subtree to +- menu.
+** TODO Adopt f-string in emacs -- https://kitchingroup.cheme.cmu.edu/blog/2018/05/14/f-strings-in-emacs-lisp/
 ** TODO emacs-27 build need a .desktop -- run dpkg -L emacs-gtk -- look at .desktop -- add to binsPrep
 ** TODO Absorb All existing in one shot.
 ** TODO Re-Do The Panels menu to point to new place.
@@ -114,6 +121,10 @@
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Blee Boot" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Blee Boot:* |]]    [[elisp:(org-shifttab)][<)]] E|
+####+END
+####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Blee Model" :anchor "" :extraInfo ""
+* /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
+* [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Blee Model:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "Blee Model" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
