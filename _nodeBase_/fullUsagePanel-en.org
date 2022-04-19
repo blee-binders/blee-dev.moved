@@ -43,6 +43,8 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** -
+** TODO think of bpo-s as .deb packages for data, data+code and services
+** TODO Buy into Git Large File Storage/Support git-lfs --- install client use with gitlab and github
 ** TODO To YASnippet file disposition line add vlc for video and audio and dired
 ** TODO Use guesslang for auto input methods.
 ** TODO Buy into https://github.com/laishulu/emacs-smart-input-source --- auto input methods
