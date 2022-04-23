@@ -43,6 +43,9 @@
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
 ** -
+** TODO Create a Comeega/polymode menu to do equivalent of f12-p f12-n f12-o
+** TODO Buy into git-crypt --- git-secret
+** TODO BISOS-Authorship Profiles Vs BISOS-Delivery Profiles
 ** TODO think of bpo-s as .deb packages for data, data+code and services
 ** TODO Buy into Git Large File Storage/Support git-lfs --- install client use with gitlab and github
 ** TODO To YASnippet file disposition line add vlc for video and audio and dired
