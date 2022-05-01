@@ -35,14 +35,18 @@
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :title "Overview" :anchor "Panel"
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *Overview:* |]] <<Panel>>   [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** 
+*
 ** Scope of this panel tree is blee development and bleePanel development
 ** B|
 ####+BEGIN: blee:bxPanel:foldingSection :outLevel 1 :sep t :title "General And Misc Tasks" :anchor "" :extraInfo ""
 * /[[elisp:(beginning-of-buffer)][|^]]  [[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]] [[elisp:(delete-other-windows)][|1]]/
 * [[elisp:(show-all)][(>]]  _[[elisp:(blee:menu-sel:outline:popupMenu)][±]]_  _[[elisp:(blee:menu-sel:navigation:popupMenu)][Ξ]]_       [[elisp:(org-cycle)][| *General And Misc Tasks:* |]]    [[elisp:(org-shifttab)][<)]] E|
 ####+END
-** -
+** +
+** TODO Problems With Emacs --- Too configurable, too Backwards Compatible, Too many platforms below
+*** Windows support, defaults not reasonable. Fragmented development.
+*** Emacs is raw technolgy. It needs to be augmented by a customization layer.
+** TODO In the context of Gnus and orgMsg introduce the concept of bodyPartCompositors
 ** TODO Create a Comeega/polymode menu to do equivalent of f12-p f12-n f12-o
 ** TODO Buy into git-crypt --- git-secret
 ** TODO BISOS-Authorship Profiles Vs BISOS-Delivery Profiles
