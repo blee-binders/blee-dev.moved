@@ -49,7 +49,7 @@
 ** TODO In the context of Gnus and orgMsg introduce the concept of bodyPartCompositors
 ** TODO Create a Comeega/polymode menu to do equivalent of f12-p f12-n f12-o
 ** TODO Buy into git-crypt --- git-secret
-** TODO BISOS-Authorship Profiles Vs BISOS-Delivery Profiles
+** TODO BISOS-Authorship (dev machines) Profiles Vs BISOS-Delivery (production machines) Profiles
 ** TODO think of bpo-s as .deb packages for data, data+code and services
 ** TODO Buy into Git Large File Storage/Support git-lfs --- install client use with gitlab and github
 ** TODO To YASnippet file disposition line add vlc for video and audio and dired
