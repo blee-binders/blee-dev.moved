@@ -64,6 +64,9 @@ Some IMAP servers allow anonymous logins. In that case, this should be set to an
 set, the normal login methods will be used. If you wish to specify a specific login method to be used, you can set
 this variable to either login (the traditional IMAP login method), plain, cram-md5 or xoauth2. (The latter method
 requires using the oauth2.el library.)
+** TODO blee3 warning (straight): Could not reset to commit "b83ae
+Warning (straight): Could not reset to commit "b83ae593473810354504f0f182bfba4537d3c284" in repository "org" Disable showing Disable logging
+Warning (straight): Could not reset to commit "9de6709cddc09740d23d24fb425fa3c174d0e956" in repository "vertico" Disable showing Disable logging
 ** TODO Gnus Manual problem -- If this slows you down or takes up very much space, a non-block-structured file system.
 ** Warning (straight): Could not reset to commit "b83ae593473810354504f0f182bfba4537d3c284" in repository "org" Disable showing Disable logging
 ** TODO Problems With Emacs --- Too configurable, too Backwards Compatible, Too many platforms below
