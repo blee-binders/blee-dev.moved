@@ -49,6 +49,11 @@
 ** https://github.com/vsajip/python-gnupg
 ** https://github.com/kensanata/ggg
 ** https://emailselfdefense.fsf.org/en/
+** https://zhou-en.github.io/2020/10/21/Encrypt-and-Decrypt-File-with-python-gnupg/
+** https://www.digitalocean.com/community/tutorials/how-to-verify-code-and-encrypt-data-with-python-gnupg-and-python-3
+** https://github.com/vsajip/python-gnupg
+** https://github.com/kensanata/ggg
+** https://emailselfdefense.fsf.org/en/
 ** https://datatracker.ietf.org/doc/html/rfc6819
 ** https://kkatsuyuki.github.io/notmuch-conf/
 ** https://fossies.org/linux/offlineimap/offlineimap.conf
